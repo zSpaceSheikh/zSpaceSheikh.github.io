@@ -1,7 +1,6 @@
 #container {
 	width:100%; /*The container will try to fill the entire browser window width*/
-	height: 2000px ;
-	max-width:1080px; /*the maximum width the container will grow to*/
+	max-width:1200px; /*the maximum width the container will grow to*/
 	/*height:960px;*/
 	margin:0px auto; /*This line of code is the key.  0px margin top and bottom, auto margin left and right to center*/
 	background-color:rgb(225,225,225);
@@ -9,21 +8,23 @@
 	box-sizing:border-box;/*Makes it so that padding does not add to a box's total width*/
 
   	display: grid;
-  	grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
- 	/* grid-template-columns: repeat(8, 12.5%);*/
+  	grid-template-columns: 20% 20% 20% 20% 20%;
+ 		/* grid-template-columns: repeat(8, 12.5%);*/
   	/*grid-template-rows: 20% 20% 20% 20% 20%;*/
 }
 
-.fullbox{
+.fivebox{
+	height: 300px;
 	background-color:rgb(200,200,200);
 	margin:10px;
 	padding:20px;
 	box-sizing:border-box;
 	text-align:center; /*left, right, center, justify*/
-	grid-column-end: span 8;
+	grid-column-end: span 5;
 }
 
-.halfbox{
+.fourbox{
+	height: 300px;
 	background-color:rgb(200,200,200);
 	margin:10px;
 	padding:20px;
@@ -32,7 +33,18 @@
 	grid-column-end: span 4;
 }
 
-.quarterbox{
+.threebox{
+	height: 300px;
+	background-color:rgb(200,200,200);
+	margin:10px;
+	padding:20px;
+	box-sizing:border-box;
+	text-align:center; /*left, right, center, justify*/
+	grid-column-end: span 3;
+}
+
+.twobox{
+	height: 300px;
 	background-color:rgb(200,200,200);
 	margin:10px;
 	padding:20px;
@@ -41,7 +53,8 @@
 	grid-column-end: span 2;
 }
 
-.eighthbox{
+.onebox{
+	height: 300px;
 	background-color:rgb(200,200,200);
 	margin:10px;
 	padding:20px;
@@ -50,18 +63,20 @@
 	grid-column-end: span 1;
 }
 
-.eighthboxtall{
+.doublesquarebox{
+	height: 620px;
 	background-color:rgb(200,200,200);
 	margin:10px;
 	padding:20px;
 	box-sizing:border-box;
 	text-align:center; /*left, right, center, justify*/
-	grid-column-end: span 1;
+	grid-column-end: span 2;
 	grid-row-end: span 2;
 }
 
 h2{
 	text-align: center;
+	font-family: 'Permanent Marker', cursive;
 }
 
 ul {
@@ -72,10 +87,11 @@ ul {
 
 .nav{
 	/* position: fixed; */
-	max-width:1080px;
+	max-width:1200px;
 	width:100%;
 	margin:0px auto;
 	padding-top: 10px;
+	padding-bottom: 30px;
 	font-size: 1.25em;
 	font-family: 'Questrial', sans-serif;
 }
@@ -88,7 +104,10 @@ ul {
 .title{
 	font-family: 'Permanent Marker', cursive;
 	font-size: 1.75em;
-	/* padding: 10px; */
+}
+
+.link{
+	padding-top: 20px;
 }
 
 hr{
@@ -96,6 +115,6 @@ hr{
 }
 
 body{
-	font-family: Helvetica, sans-serif;
+	font-family: 'Questrial', sans-serif;
 	background-color: white;
 }
