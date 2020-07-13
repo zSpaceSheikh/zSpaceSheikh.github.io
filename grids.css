@@ -3,7 +3,7 @@
 	max-width:1200px; /*the maximum width the container will grow to*/
 	/*height:960px;*/
 	margin:0px auto; /*This line of code is the key.  0px margin top and bottom, auto margin left and right to center*/
-	background-color:rgb(225,225,225);
+	/* background-color:rgb(225,225,225); */
 	padding:0px;
 	box-sizing:border-box;/*Makes it so that padding does not add to a box's total width*/
 
@@ -16,7 +16,7 @@
 .fivebox{
 	height: 300px;
 	background-color:rgb(200,200,200);
-	margin:10px;
+	margin:5px;
 	padding:20px;
 	box-sizing:border-box;
 	text-align:center; /*left, right, center, justify*/
@@ -26,7 +26,7 @@
 .fourbox{
 	height: 300px;
 	background-color:rgb(200,200,200);
-	margin:10px;
+	margin:5px;
 	padding:20px;
 	box-sizing:border-box;
 	text-align:center; /*left, right, center, justify*/
@@ -36,7 +36,7 @@
 .threebox{
 	height: 300px;
 	background-color:rgb(200,200,200);
-	margin:10px;
+	margin:5px;
 	padding:20px;
 	box-sizing:border-box;
 	text-align:center; /*left, right, center, justify*/
@@ -46,8 +46,8 @@
 .twobox{
 	height: 300px;
 	background-color:rgb(200,200,200);
-	margin:10px;
-	padding:20px;
+	margin:5px;
+	/* padding:20px; */
 	box-sizing:border-box;
 	text-align:center; /*left, right, center, justify*/
 	grid-column-end: span 2;
@@ -56,7 +56,7 @@
 .onebox{
 	height: 300px;
 	background-color:rgb(200,200,200);
-	margin:10px;
+	margin:5px;
 	padding:20px;
 	box-sizing:border-box;
 	text-align:center; /*left, right, center, justify*/
@@ -64,9 +64,9 @@
 }
 
 .doublesquarebox{
-	height: 620px;
+	height: 610px;
 	background-color:rgb(200,200,200);
-	margin:10px;
+	margin:5px;
 	padding:20px;
 	box-sizing:border-box;
 	text-align:center; /*left, right, center, justify*/
@@ -118,3 +118,7 @@ body{
 	font-family: 'Questrial', sans-serif;
 	background-color: white;
 }
+
+img{
+   max-height: 100%;
+}​
