@@ -17,7 +17,7 @@
 	height: 300px;
 	background-color:rgb(200,200,200);
 	margin:5px;
-	padding:20px;
+	/* padding:20px; */
 	box-sizing:border-box;
 	text-align:center; /*left, right, center, justify*/
 	grid-column-end: span 5;
@@ -27,7 +27,7 @@
 	height: 300px;
 	background-color:rgb(200,200,200);
 	margin:5px;
-	padding:20px;
+	/* padding:20px; */
 	box-sizing:border-box;
 	text-align:center; /*left, right, center, justify*/
 	grid-column-end: span 4;
@@ -37,7 +37,7 @@
 	height: 300px;
 	background-color:rgb(200,200,200);
 	margin:5px;
-	padding:20px;
+	/* padding:20px; */
 	box-sizing:border-box;
 	text-align:center; /*left, right, center, justify*/
 	grid-column-end: span 3;
@@ -57,7 +57,7 @@
 	height: 300px;
 	background-color:rgb(200,200,200);
 	margin:5px;
-	padding:20px;
+	/* padding:20px; */
 	box-sizing:border-box;
 	text-align:center; /*left, right, center, justify*/
 	grid-column-end: span 1;
@@ -67,7 +67,7 @@
 	height: 610px;
 	background-color:rgb(200,200,200);
 	margin:5px;
-	padding:20px;
+	/* padding:20px; */
 	box-sizing:border-box;
 	text-align:center; /*left, right, center, justify*/
 	grid-column-end: span 2;
