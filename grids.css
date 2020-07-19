@@ -110,6 +110,17 @@
 	font-family: 'Questrial', sans-serif;
 }
 
+.footer{
+	/* position: fixed; */
+	max-width:1200px;
+	width:100%;
+	margin:0px auto;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: 1.25em;
+	font-family: 'Questrial', sans-serif;
+}
+
 .menu{
 	display: flex;
 	justify-content: space-between;
@@ -122,6 +133,11 @@
 
 .link{
 	padding-top: 20px;
+}
+
+.bottom{
+	/* padding-top: 20px; */
+	font-size: 0.75em;
 }
 
 h2{
